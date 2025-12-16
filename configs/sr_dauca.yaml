@@ -1,0 +1,13 @@
+train: /home/malezainia1/dev/ultralytics/datasets/sr_dauca/train/images
+val: /home/malezainia1/dev/ultralytics/datasets/sr_dauca/valid/images
+test: /home/malezainia1/dev/ultralytics/datasets/sr_dauca/test/images
+
+nc: 1
+names: ['DAUCA']
+
+roboflow:
+  workspace: fia2024
+  project: santarosamosaic
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/fia2024/santarosamosaic/1

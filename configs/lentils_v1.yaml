@@ -1,0 +1,16 @@
+names:
+- AMBEL
+- LENCU
+- POLAV
+- POLPE
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: merge-2to11
+  url: https://universe.roboflow.com/dlm2lencu-o0fxa/merge-2to11/dataset/5
+  version: 5
+  workspace: dlm2lencu-o0fxa
+path: /home/malezainia1/dev/ultralytics/datasets/lentils_v1
+test: test/images
+train: train/images
+val: valid/images

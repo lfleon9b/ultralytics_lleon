@@ -1,0 +1,13 @@
+train: /home/malezainia1/dev/ultralytics/datasets/merge_varios_cultivos/train/images
+val: /home/malezainia1/dev/ultralytics/datasets/merge_varios_cultivos/valid/images
+test: /home/malezainia1/dev/ultralytics/datasets/merge_varios_cultivos/test/images
+
+nc: 6
+names: ['AMBEL', 'LENCU', 'LOLSS', 'POLAV', 'POLPE', 'RAPRA']
+
+roboflow:
+  workspace: fia2024
+  project: mergevarios
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/fia2024/mergevarios/1

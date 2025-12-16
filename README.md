@@ -22,6 +22,40 @@
 </div>
 <br>
 
+---
+
+## 🌾 Agricultural Precision Farming Fork
+
+**This is a specialized fork of Ultralytics YOLO for agricultural weed detection and precision farming applications.**
+
+### Key Focus Areas:
+- **Multi-crop weed species detection** (6 weed classes: AMBEL, LENCU, LOLSS, POLAV, POLPE, RAPRA)
+- **High-resolution UAV/drone imagery analysis** (1024×1024px optimized)
+- **Precision spot-spraying applications** to reduce agrochemical usage by 35-50%
+- **Multi-scale integration** with satellite imagery (Sentinel-2 NDVI validation)
+- **Geographic focus**: Santa Rosa region, Chile
+
+### Current Models:
+- **Multi-weed unified model**: 81.9% mAP50 across 6 weed species (YOLO11l)
+- **DAUCA specialist**: 84.6% precision for *Daucus carota* detection (YOLO11l)
+- **DLM2 methodology**: Pre-augmented datasets with disabled internal augmentation
+
+### Custom Extensions:
+- `configs/` - Dataset configurations for agricultural species
+- `scripts/` - Custom training, evaluation, and monitoring scripts
+- `documents/` - Experiment reports and results
+- `.claude.md` - Comprehensive project documentation
+
+For agricultural-specific documentation, see [`.claude.md`](.claude.md).
+
+To stay updated with upstream Ultralytics features:
+```bash
+git fetch upstream
+git merge upstream/main
+```
+
+---
+
 [Ultralytics](https://www.ultralytics.com/) creates cutting-edge, state-of-the-art (SOTA) [YOLO models](https://www.ultralytics.com/yolo) built on years of foundational research in computer vision and AI. Constantly updated for performance and flexibility, our models are **fast**, **accurate**, and **easy to use**. They excel at [object detection](https://docs.ultralytics.com/tasks/detect/), [tracking](https://docs.ultralytics.com/modes/track/), [instance segmentation](https://docs.ultralytics.com/tasks/segment/), [image classification](https://docs.ultralytics.com/tasks/classify/), and [pose estimation](https://docs.ultralytics.com/tasks/pose/) tasks.
 
 Find detailed documentation in the [Ultralytics Docs](https://docs.ultralytics.com/). Get support via [GitHub Issues](https://github.com/ultralytics/ultralytics/issues/new/choose). Join discussions on [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the [Ultralytics Community Forums](https://community.ultralytics.com/)!
