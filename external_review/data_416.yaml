@@ -1,0 +1,13 @@
+train: F:\Datasets\lencu-all-f5-roboflow\Lencu-416-merge2to11-except5\train\images
+val: F:\Datasets\lencu-all-f5-roboflow\Lencu-416-merge2to11-except5\valid\images
+test: F:\Datasets\lencu-all-f5-roboflow\Lencu-416-merge2to11-except5\test\images
+
+nc: 4
+names: ['AMBEL', 'LENCU', 'POLAV', 'POLPE']
+
+roboflow:
+  workspace: fia2024
+  project: lencu_19agosto2020_416x416px
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/fia2024/lencu_19agosto2020_416x416px/1

@@ -1,0 +1,8 @@
+names:
+- AMBEL
+- LENCU
+- POLAV
+- POLPE
+nc: 4
+train: ''
+val: C:\Users\Usuario\yolov8_project\yolov8_project\lencu-all-f5-roboflow\Lencu-merge2to11-except5_2048x2048\test\images
